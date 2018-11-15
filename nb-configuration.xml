@@ -23,5 +23,27 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>Tomcat</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>
         <org-netbeans-modules-whitelist.whitelist-oracle>false</org-netbeans-modules-whitelist.whitelist-oracle>
         <org-netbeans-modules-javascript2-requirejs.enabled>true</org-netbeans-modules-javascript2-requirejs.enabled>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.SaveActionModifiedLinesOnly>false</de-markiewb-netbeans-plugins-eclipse-formatter44.SaveActionModifiedLinesOnly>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.preserveBreakPoints>true</de-markiewb-netbeans-plugins-eclipse-formatter44.preserveBreakPoints>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.linefeed/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.eclipseFormatterActiveProfile/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.useProjectPref>true</de-markiewb-netbeans-plugins-eclipse-formatter44.useProjectPref>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.eclipseFormatterLocation/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.showNotifications>true</de-markiewb-netbeans-plugins-eclipse-formatter44.showNotifications>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.eclipseFormatterEnabled>false</de-markiewb-netbeans-plugins-eclipse-formatter44.eclipseFormatterEnabled>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.enableFormatAsSaveAction>false</de-markiewb-netbeans-plugins-eclipse-formatter44.enableFormatAsSaveAction>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.sourcelevel/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter44.useProjectSettings>false</de-markiewb-netbeans-plugins-eclipse-formatter44.useProjectSettings>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.SaveActionModifiedLinesOnly>false</de-markiewb-netbeans-plugins-eclipse-formatter46.SaveActionModifiedLinesOnly>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.preserveBreakPoints>true</de-markiewb-netbeans-plugins-eclipse-formatter46.preserveBreakPoints>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.linefeed/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterActiveProfile/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectPref>true</de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectPref>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterLocation/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.showNotifications>true</de-markiewb-netbeans-plugins-eclipse-formatter46.showNotifications>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterEnabled>false</de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterEnabled>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.enableFormatAsSaveAction>false</de-markiewb-netbeans-plugins-eclipse-formatter46.enableFormatAsSaveAction>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.sourcelevel/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectSettings>false</de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectSettings>
     </properties>
 </project-shared-configuration>
