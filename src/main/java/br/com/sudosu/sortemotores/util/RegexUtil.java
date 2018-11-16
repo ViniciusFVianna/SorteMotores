@@ -10,7 +10,7 @@ import javax.servlet.ServletException;
  */
 public class RegexUtil {
     private static final Pattern regexAll = Pattern.compile("/produtos");
-    private static final Pattern regexById = Pattern.compile("/sortemotores/([0-9])");
+    private static final Pattern regexById = Pattern.compile("/produtos/([0-9])");
     
     //Verifica se a URL é no padrão "/sortemotores/id
     public static Long matchId(String requestUri) throws ServletException{
