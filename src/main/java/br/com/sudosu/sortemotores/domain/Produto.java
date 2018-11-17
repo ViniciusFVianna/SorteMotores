@@ -6,23 +6,39 @@
 package br.com.sudosu.sortemotores.domain;
 
 import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author Vinicius Vianna
  */
+@Entity
 @XmlRootElement
 public class Produto implements Serializable{
     
     private static final long serialVersionUID = 1L;
+    @Id
+    @Column(name="id", unique=true, nullable=false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idProduto;
+    @Column(nullable=false, length=100)
     private String nome;
+    @Column(nullable=false, length=100)
     private String marca;
+    @Column(nullable=false, length=100)
     private String modelo;
+    @Column(nullable=false, length=100)
     private Long codigo;
+    @Column(nullable=false, length=100)
     private double valorCompra;
+    @Column(nullable=false, length=100)
     private double valorVenda;
+    @Column(nullable=false, length=100)
     private int qtde;
 
     public Produto() {

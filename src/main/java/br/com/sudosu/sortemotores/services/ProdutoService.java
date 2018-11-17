@@ -5,14 +5,18 @@ import br.com.sudosu.sortemotores.domain.Produto;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframwork.stereotype.Component;
 
 /**
  *
  * @author Vinicius Vianna
  */
+@Component
 public class ProdutoService {
 
-    private ProdutoDAO db = new ProdutoDAO();
+    @Autowired
+    private ProdutoDAO db;
 //    Lista de todos os produtos do banco de dados
 
     public List<Produto> getProdutos() {
